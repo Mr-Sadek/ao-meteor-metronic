@@ -1,0 +1,24 @@
+<template name="appTopNavigationMenu">
+    <div class="top-menu">
+        <ul class="nav navbar-nav pull-right">
+            <li class="separator hide">
+            </li>
+            <!-- BEGIN NOTIFICATION DROPDOWN -->
+            {{> appNotificationDropdown }}
+            <!-- END NOTIFICATION DROPDOWN -->
+            <li class="separator hide">
+            </li>
+            <!-- BEGIN INBOX DROPDOWN -->
+            {{> appInboxDropdown }}
+            <!-- END INBOX DROPDOWN -->
+            <li class="separator hide">
+            </li>
+            <!-- BEGIN TODO DROPDOWN -->
+            {{> appToDoDropdown }}
+            <!-- END TODO DROPDOWN -->
+            <!-- BEGIN USER LOGIN DROPDOWN -->
+            {{> appUserLoginDropdown }}
+            <!-- END USER LOGIN DROPDOWN -->
+        </ul>
+    </div>
+</template>
