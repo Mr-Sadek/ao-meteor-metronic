@@ -13,7 +13,7 @@
             <ul class="page-sidebar-menu" data-keep-expanded="false" data-auto-scroll="true"
                 data-slide-speed="200">
                 {{#each menus}}
-                    {{#if equals aHrefDataMenuType 'root' }}
+                    {{#if $eq aHrefDataMenuType 'root' }}
                         <li class="{{ liClassStart }} {{ isActiveRoute liClassIsActiveRouteParam1 liClassIsActiveRouteParam2 }}">
                             <a href="{{ pathFor route=aHrefPathForRoute }}" id="{{ aId }}"
                                data-menu-type="{{ aHrefDataMenuType }}" data-menu-element-name="{{ aHrefDataMenuElementName }}">
@@ -22,7 +22,7 @@
                             </a>
                         </li>
                     {{/if}}
-                    {{#if equals aHrefDataMenuType 'parent' }}
+                    {{#if $eq aHrefDataMenuType 'parent' }}
                         <li class="{{ isOpenParentMenu liOpenParentMenu }} {{ isActiveParentMenu liIsActiveParentMenu }}">
                             <a href="{{ aHref }}" id="{{ aId }}" data-menu-type="{{ aHrefDataMenuType }}"
                                data-menu-parent-name="{{ aHrefDataMenuParentName }}">

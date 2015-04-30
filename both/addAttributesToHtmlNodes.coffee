@@ -1,6 +1,6 @@
 Blaze.addBodyClass = (fn) ->
   if $.isArray(fn)
-    return fn.forEach(Blaze.addBodyClass)
+    fn.forEach(Blaze.addBodyClass)
 
   if typeof fn != 'function'
     return Meteor.startup(->

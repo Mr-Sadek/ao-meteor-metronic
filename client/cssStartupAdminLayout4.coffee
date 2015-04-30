@@ -64,7 +64,7 @@ Meteor.startup ->
     # orientation = 'right'
     _.each cssList, (elem) ->
       $('link#' + elem.id).attr 'href', elem.css[orientation]
-#   $('link#headLinkCss_bootstrap').attr 'href', '/assets/metronic/theme_rtl/assets/global/plugins/bootstrap/css/bootstrap.min.css'
+    # $('link#headLinkCss_bootstrap').attr 'href', '/assets/metronic/theme_rtl/assets/global/plugins/bootstrap/css/bootstrap.min.css'
 
-    Metronic.init()
-    Layout.init()
+    # Metronic.init()
+    # Layout.init()

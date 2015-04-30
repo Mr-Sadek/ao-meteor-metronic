@@ -53,34 +53,31 @@ Template.appLeftMenuLayout.events
 Template.appLeftMenuLayout.helpers
   'isActiveRoute': (routeName, parentName) ->
     if Session.get('routeActiveMenuElement') == routeName
-      return 'active'
+      'active'
     else
       if Router.current().route.getName() == routeName
         Session.set('routeActiveMenuElement', routeName)
         Session.set('routeActiveParent', parentName)
         Session.set('selectedOpenParent', parentName)
-        return 'active'
+        'active'
 
   'isOpenParentMenu': (parentName) ->
     if Session.get('selectedOpenParent') == parentName
-      return 'open'
+      'open'
 
   'isActiveParentMenu': (groupName) ->
     if Session.get('routeActiveParent') == groupName
-      return 'active'
+      'active'
 
   'isBlockParentMenuStyle': (parentName) ->
     if Session.get('selectedOpenParent') == parentName
-      return 'display: block;'
+      'display: block;'
     else
-      return 'display: none;'
+      'display: none;'
 
   'isArrowOpenParentMenu': (parentName) ->
     if Session.get('selectedOpenParent') == parentName
-      return 'open'
-
-  'equals': (a, b) ->
-    return a == b
+      'open'
 
   'menus': () ->
     ###
@@ -504,5 +501,5 @@ Template.appLeftMenuLayout.helpers
             ]
         }
       ]
-    return menuList
+    menuList
 
