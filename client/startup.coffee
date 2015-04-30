@@ -11,8 +11,8 @@ div.innerHTML = '<!--[if IE]><injm></injm><![endif]-->'
 # but older IE browsers.
 if div.getElementsByTagName('injm').length
   isIe = true
-console.log("Is this an Internet Explorer?")
-console.log(isIe)
+# console.log("Is this an Internet Explorer?")
+# console.log(isIe)
 
 Meteor.startup ->
   # search for the meta tag appended by the conditional inclusion comment
