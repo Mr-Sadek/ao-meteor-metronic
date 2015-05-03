@@ -114,7 +114,7 @@ Template.appLeftMenuLayout.helpers
           aHrefDataMenuType: 'root'
           aHrefDataMenuElementName: 'admin'
           iClassIcon: 'fa fa-home'
-          menuTitle: 'Dashboard'
+          menuTitle: TAPi18n.__('Dashboard')
         },
         {
           liClassStart: ''
@@ -125,7 +125,7 @@ Template.appLeftMenuLayout.helpers
           aHrefDataMenuType: 'parent'
           aHrefDataMenuParentName: 'sales'
           iClassIcon: 'fa fa-money'
-          menuTitle: 'Sales'
+          menuTitle: TAPi18n.__('Sales')
           spanArrowIsArrowOpenParentMenu: 'sales'
           ulStyleIsBlockParentMenuStyle: 'sales'
           children:
@@ -138,7 +138,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'salesOrderList'
                 aHrefDataMenuParentName: 'sales'
                 iClassIcon: 'fa fa-database'
-                menuTitle: 'Order List'
+                menuTitle: TAPi18n.__('Order List')
               },
               {
                 liClassIsActiveRouteParam1: 'salesOrderCreate'
@@ -148,7 +148,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'salesOrderCreate'
                 aHrefDataMenuParentName: 'sales'
                 iClassIcon: 'fa fa-cart-plus'
-                menuTitle: 'New Order'
+                menuTitle: TAPi18n.__('New Order')
               }
             ]
         },
@@ -161,7 +161,7 @@ Template.appLeftMenuLayout.helpers
           aHrefDataMenuType: 'parent'
           aHrefDataMenuParentName: 'product'
           iClassIcon: 'fa fa-cubes'
-          menuTitle: 'Product'
+          menuTitle: TAPi18n.__('Product')
           spanArrowIsArrowOpenParentMenu: 'product'
           ulStyleIsBlockParentMenuStyle: 'product'
           children:
@@ -174,7 +174,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'productTransportation'
                 aHrefDataMenuParentName: 'product'
                 iClassIcon: 'fa fa-plane'
-                menuTitle: 'Transportation'
+                menuTitle: TAPi18n.__('Transportation')
               },
               {
                 liClassIsActiveRouteParam1: 'productCar'
@@ -184,7 +184,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'productCar'
                 aHrefDataMenuParentName: 'product'
                 iClassIcon: 'fa fa-car'
-                menuTitle: 'Car'
+                menuTitle: TAPi18n.__('Car')
               },
               {
                 liClassIsActiveRouteParam1: 'productCamper'
@@ -194,7 +194,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'productCamper'
                 aHrefDataMenuParentName: 'product'
                 iClassIcon: 'fa fa-bus'
-                menuTitle: 'Camper'
+                menuTitle: TAPi18n.__('Camper')
               },
               {
                 liClassIsActiveRouteParam1: 'productHotel'
@@ -204,7 +204,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'productHotel'
                 aHrefDataMenuParentName: 'product'
                 iClassIcon: 'fa fa-bed'
-                menuTitle: 'Hotel'
+                menuTitle: TAPi18n.__('Hotel')
               },
               {
                 liClassIsActiveRouteParam1: 'productMiscellaneous'
@@ -214,7 +214,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'productMiscellaneous'
                 aHrefDataMenuParentName: 'product'
                 iClassIcon: 'fa fa-skyatlas'
-                menuTitle: 'Miscellaneous'
+                menuTitle: TAPi18n.__('Miscellaneous')
               },
               {
                 liClassIsActiveRouteParam1: 'productText'
@@ -224,7 +224,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'productText'
                 aHrefDataMenuParentName: 'product'
                 iClassIcon: 'fa fa-align-justify'
-                menuTitle: 'Text'
+                menuTitle: TAPi18n.__('Text')
               },
               {
                 liClassIsActiveRouteParam1: 'productPackage'
@@ -234,7 +234,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'productPackage'
                 aHrefDataMenuParentName: 'product'
                 iClassIcon: 'fa fa-archive'
-                menuTitle: 'Package'
+                menuTitle: TAPi18n.__('Package')
               }
             ]
         },
@@ -247,7 +247,7 @@ Template.appLeftMenuLayout.helpers
           aHrefDataMenuType: 'parent'
           aHrefDataMenuParentName: 'setup'
           iClassIcon: 'fa fa-cog'
-          menuTitle: 'Setup'
+          menuTitle: TAPi18n.__('Setup')
           spanArrowIsArrowOpenParentMenu: 'setup'
           ulStyleIsBlockParentMenuStyle: 'setup'
           children:
@@ -260,7 +260,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'setupCamper'
                 aHrefDataMenuParentName: 'setup'
                 iClassIcon: 'fa fa-bus'
-                menuTitle: 'Camper'
+                menuTitle: TAPi18n.__('Camper')
               },
               {
                 liClassIsActiveRouteParam1: 'setupCar'
@@ -270,7 +270,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'setupCar'
                 aHrefDataMenuParentName: 'setup'
                 iClassIcon: 'fa fa-car'
-                menuTitle: 'Car'
+                menuTitle: TAPi18n.__('Car')
               },
               {
                 liClassIsActiveRouteParam1: 'setupGeneral'
@@ -280,7 +280,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'setupGeneral'
                 aHrefDataMenuParentName: 'setup'
                 iClassIcon: 'fa fa-folder'
-                menuTitle: 'General'
+                menuTitle: TAPi18n.__('General')
               },
               {
                 liClassIsActiveRouteParam1: 'setupHotel'
@@ -290,7 +290,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'setupHotel'
                 aHrefDataMenuParentName: 'setup'
                 iClassIcon: 'fa fa-bed'
-                menuTitle: 'Hotel'
+                menuTitle: TAPi18n.__('Hotel')
               },
               {
                 liClassIsActiveRouteParam1: 'setupImport'
@@ -300,7 +300,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'setupImport'
                 aHrefDataMenuParentName: 'setup'
                 iClassIcon: 'fa fa-download'
-                menuTitle: 'Import'
+                menuTitle: TAPi18n.__('Import')
               },
               {
                 liClassIsActiveRouteParam1: 'setupOrder'
@@ -310,7 +310,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'setupOrder'
                 aHrefDataMenuParentName: 'setup'
                 iClassIcon: 'fa fa-database'
-                menuTitle: 'Order'
+                menuTitle: TAPi18n.__('Order')
               },
               {
                 liClassIsActiveRouteParam1: 'setupSupplier'
@@ -320,7 +320,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'setupSupplier'
                 aHrefDataMenuParentName: 'setup'
                 iClassIcon: 'fa fa-arrows-alt'
-                menuTitle: 'Supplier'
+                menuTitle: TAPi18n.__('Supplier')
               },
               {
                 liClassIsActiveRouteParam1: 'setupTransportation'
@@ -330,7 +330,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'setupTransportation'
                 aHrefDataMenuParentName: 'setup'
                 iClassIcon: 'fa fa-plane'
-                menuTitle: 'Transportation'
+                menuTitle: TAPi18n.__('Transportation')
               }
             ]
         },
@@ -343,21 +343,11 @@ Template.appLeftMenuLayout.helpers
           aHrefDataMenuType: 'parent'
           aHrefDataMenuParentName: 'statistics'
           iClassIcon: 'fa fa-line-chart'
-          menuTitle: 'Statistics'
+          menuTitle: TAPi18n.__('Statistics')
           spanArrowIsArrowOpenParentMenu: 'statistics'
           ulStyleIsBlockParentMenuStyle: 'statistics'
           children:
             [
-              {
-                liClassIsActiveRouteParam1: 'statisticsProfitMargin'
-                liClassIsActiveRouteParam2: 'statistics'
-                aHrefPathForRoute: 'statisticsProfitMargin'
-                aHrefDataMenuType: 'child'
-                aHrefDataMenuElementName: 'statisticsProfitMargin'
-                aHrefDataMenuParentName: 'statistics'
-                iClassIcon: 'fa fa-thumbs-up'
-                menuTitle: 'Profit Margin'
-              },
               {
                 liClassIsActiveRouteParam1: 'statisticsTurnover'
                 liClassIsActiveRouteParam2: 'statistics'
@@ -366,7 +356,17 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'statisticsTurnover'
                 aHrefDataMenuParentName: 'statistics'
                 iClassIcon: 'fa fa-line-chart'
-                menuTitle: 'Turnover'
+                menuTitle: TAPi18n.__('Turnover')
+              },
+              {
+                liClassIsActiveRouteParam1: 'statisticsProfitMargin'
+                liClassIsActiveRouteParam2: 'statistics'
+                aHrefPathForRoute: 'statisticsProfitMargin'
+                aHrefDataMenuType: 'child'
+                aHrefDataMenuElementName: 'statisticsProfitMargin'
+                aHrefDataMenuParentName: 'statistics'
+                iClassIcon: 'fa fa-thumbs-up'
+                menuTitle: TAPi18n.__('Profit Margin')
               }
             ]
         },
@@ -379,7 +379,7 @@ Template.appLeftMenuLayout.helpers
           aHrefDataMenuType: 'parent'
           aHrefDataMenuParentName: 'accounting'
           iClassIcon: 'fa fa-bank'
-          menuTitle: 'Accounting'
+          menuTitle: TAPi18n.__('Accounting')
           spanArrowIsArrowOpenParentMenu: 'accounting'
           ulStyleIsBlockParentMenuStyle: 'accounting'
           children:
@@ -392,7 +392,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'accountingBsp'
                 aHrefDataMenuParentName: 'accounting'
                 iClassIcon: 'fa fa-check'
-                menuTitle: 'Bsp'
+                menuTitle: TAPi18n.__('Bsp')
               },
               {
                 liClassIsActiveRouteParam1: 'accountingCredit'
@@ -402,7 +402,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'accountingCredit'
                 aHrefDataMenuParentName: 'accounting'
                 iClassIcon: 'fa fa-credit-card'
-                menuTitle: 'Credit'
+                menuTitle: TAPi18n.__('Creditor')
               },
               {
                 liClassIsActiveRouteParam1: 'accountingDebit'
@@ -412,7 +412,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'accountingDebit'
                 aHrefDataMenuParentName: 'accounting'
                 iClassIcon: 'fa fa-money'
-                menuTitle: 'Debit'
+                menuTitle: TAPi18n.__('Debitor')
               },
               {
                 liClassIsActiveRouteParam1: 'accountingSetup'
@@ -422,7 +422,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'accountingSetup'
                 aHrefDataMenuParentName: 'accounting'
                 iClassIcon: 'fa fa-gears'
-                menuTitle: 'Setup'
+                menuTitle: TAPi18n.__('Setup')
               }
             ]
         },
@@ -436,7 +436,7 @@ Template.appLeftMenuLayout.helpers
           aHrefDataMenuType: 'parent'
           aHrefDataMenuParentName: 'customer'
           iClassIcon: 'fa fa-users'
-          menuTitle: 'Customer'
+          menuTitle: TAPi18n.__('Customer')
           spanArrowIsArrowOpenParentMenu: 'customer'
           ulStyleIsBlockParentMenuStyle: 'customer'
           children:
@@ -449,7 +449,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'customerAgent'
                 aHrefDataMenuParentName: 'customer'
                 iClassIcon: 'fa fa-user-times'
-                menuTitle: 'Agent'
+                menuTitle: TAPi18n.__('Agent')
               },
               {
                 liClassIsActiveRouteParam1: 'customerConsumer'
@@ -459,7 +459,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'customerConsumer'
                 aHrefDataMenuParentName: 'customer'
                 iClassIcon: 'fa fa-user'
-                menuTitle: 'Consumer'
+                menuTitle: TAPi18n.__('Consumer')
               }
             ]
         },
@@ -473,7 +473,7 @@ Template.appLeftMenuLayout.helpers
           aHrefDataMenuType: 'parent'
           aHrefDataMenuParentName: 'internal'
           iClassIcon: 'fa fa-building'
-          menuTitle: 'Internal'
+          menuTitle: TAPi18n.__('Internal')
           spanArrowIsArrowOpenParentMenu: 'internal'
           ulStyleIsBlockParentMenuStyle: 'internal'
           children:
@@ -486,7 +486,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'internalEmployee'
                 aHrefDataMenuParentName: 'internal'
                 iClassIcon: 'fa fa-users'
-                menuTitle: 'Employee'
+                menuTitle: TAPi18n.__('Employee')
               },
               {
                 liClassIsActiveRouteParam1: 'internalTask'
@@ -496,8 +496,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'internalTask'
                 aHrefDataMenuParentName: 'internal'
                 iClassIcon: 'fa fa-tasks'
-                menuTitle: 'Task'
-              }
+                menuTitle: TAPi18n.__('Task')              }
             ]
         }
       ]
