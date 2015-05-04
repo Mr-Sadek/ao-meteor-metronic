@@ -290,7 +290,7 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'setupCreditcard'
                 aHrefDataMenuParentName: 'setup'
                 iClassIcon: 'fa fa-credit-card'
-                menuTitle: TAPi18n.__('Creditcard')
+                menuTitle: TAPi18n.__('Credit card')
               },
               {
                 liClassIsActiveRouteParam1: 'setupHotel'
