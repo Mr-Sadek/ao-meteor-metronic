@@ -283,6 +283,16 @@ Template.appLeftMenuLayout.helpers
                 menuTitle: TAPi18n.__('General')
               },
               {
+                liClassIsActiveRouteParam1: 'setupCreditcard'
+                liClassIsActiveRouteParam2: 'setup'
+                aHrefPathForRoute: 'setupCreditcard'
+                aHrefDataMenuType: 'child'
+                aHrefDataMenuElementName: 'setupCreditcard'
+                aHrefDataMenuParentName: 'setup'
+                iClassIcon: 'fa fa-credit-card'
+                menuTitle: TAPi18n.__('Creditcard')
+              },
+              {
                 liClassIsActiveRouteParam1: 'setupHotel'
                 liClassIsActiveRouteParam2: 'setup'
                 aHrefPathForRoute: 'setupHotel'

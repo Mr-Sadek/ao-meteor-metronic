@@ -317,6 +317,30 @@ Router.route '/admin/setup/general', (->
 , h1: 'Setup - General'
 , h2: ''
 
+Router.route '/admin/setup/creditcard', (->
+    @layout 'appLayout'
+    @render 'setupCreditcard'
+  )
+, name: 'setupCreditcard'
+, parentMenu: 'setup'
+, childMenu: 'setupCreditcard'
+, breadcrumb: [
+  {
+    text: -> TAPi18n.__('Home'),
+    routeName: 'admin'
+  },
+  {
+    text: -> TAPi18n.__('Setup'),
+    routeName: '#'
+  },
+  {
+    text: -> TAPi18n.__('Creditcard'),
+    routeName: 'setupCreditcard'
+  }
+]
+, h1: 'Setup - Creditcard'
+, h2: ''
+
 Router.route '/admin/setup/hotel', (->
     @layout 'appLayout'
     @render 'setupHotel'
