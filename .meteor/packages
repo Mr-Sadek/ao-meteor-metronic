@@ -22,6 +22,7 @@ rudolf:assets-metronic
 multiply:iron-router-progress
 fortawesome:fontawesome
 raix:handlebar-helpers
+aldeed:simple-schema
 aldeed:autoform
 aldeed:collection2
 meteortoys:allthings

@@ -1,6 +1,7 @@
 ## AutoForm
 
 TODO: implement https://github.com/aldeed/meteor-autoform in order to create insert and update forms to get some data into the database.
+http://kukuruku.co/hub/javascript/meteor-how-to-build-a-todo-list
 
 ## Multi-Language Support
 
