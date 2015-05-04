@@ -496,7 +496,18 @@ Template.appLeftMenuLayout.helpers
                 aHrefDataMenuElementName: 'internalTask'
                 aHrefDataMenuParentName: 'internal'
                 iClassIcon: 'fa fa-tasks'
-                menuTitle: TAPi18n.__('Task')              }
+                menuTitle: TAPi18n.__('Task')
+              },
+              {
+                liClassIsActiveRouteParam1: 'internalProfile'
+                liClassIsActiveRouteParam2: 'internal'
+                aHrefPathForRoute: 'internalProfile'
+                aHrefDataMenuType: 'child'
+                aHrefDataMenuElementName: 'internalProfile'
+                aHrefDataMenuParentName: 'internal'
+                iClassIcon: 'fa fa-user-following'
+                menuTitle: TAPi18n.__('My Profile')
+              }
             ]
         }
       ]

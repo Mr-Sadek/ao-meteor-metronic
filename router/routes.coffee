@@ -676,6 +676,30 @@ Router.route '/admin/internal/task', (->
 , h1: 'Internal - Task'
 , h2: 'Task List'
 
+Router.route '/admin/internal/profile', (->
+    @layout 'appLayout'
+    @render 'internalProfile'
+  )
+, name: 'internalProfile'
+, parentMenu: 'internal'
+, childMenu: 'internalProfile'
+, breadcrumb: [
+  {
+    text: -> TAPi18n.__('Home'),
+    routeName: 'admin'
+  },
+  {
+    text: -> TAPi18n.__('Internal'),
+    routeName: '#'
+  },
+  {
+    text: -> TAPi18n.__('My Profile'),
+    routeName: 'internalTask'
+  }
+]
+, h1: 'Internal - My Profile'
+, h2: 'My Profile'
+
 
 
 

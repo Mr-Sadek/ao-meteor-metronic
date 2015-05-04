@@ -31,6 +31,12 @@ Meteor.startup ->
           right: "/assets/metronic/theme_rtl/assets/global/css/components-rounded-rtl.css"
       },
       {
+        id: "headLinkCss_profile"
+        css:
+          left: "/assets/metronic/theme_rtl/assets/admin/pages/css/profile.css"
+          right: "/assets/metronic/theme_rtl/assets/admin/pages/css/profile-rtl.css"
+      },
+      {
         id: "headLinkCss_plugins"
         css:
           left: "/assets/metronic/theme_rtl/assets/global/css/plugins.css"
