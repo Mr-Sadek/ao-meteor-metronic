@@ -7,11 +7,11 @@
 meteor-platform
 autopublish
 insecure
+coffeescript
 iron:router
 miro:preloader
 numtel:publicsources
 manuelschoebel:wait-on-lib
-coffeescript
 less
 reactive-var
 jquery
@@ -22,9 +22,8 @@ rudolf:assets-metronic
 multiply:iron-router-progress
 fortawesome:fontawesome
 raix:handlebar-helpers
-aldeed:simple-schema
-aldeed:autoform
 aldeed:collection2
+aldeed:autoform
 meteortoys:allthings
 tap:i18n
 tap:i18n-db
