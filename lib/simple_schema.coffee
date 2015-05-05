@@ -1,4 +1,7 @@
 # lib/simple_schema.coffee
+# Note: this is a super-class, and Javascript requires that superclasses are loaded before the using-class.
+# The lib folder is loaded before other folders, which means the collections should not be placed in the lib folder.
+
 _.extend SimpleSchema,
   # this method will collect one schema from several passed objects
   # and return it

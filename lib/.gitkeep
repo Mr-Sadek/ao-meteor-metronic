@@ -1,1 +1,1 @@
-Library code that is used on client and server
+Library code that is used on client and server and loaded before other javascript files.

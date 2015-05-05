@@ -28,3 +28,6 @@ meteortoys:allthings
 tap:i18n
 tap:i18n-db
 tap:i18n-ui
+dburles:collection-helpers
+
+npm-container
