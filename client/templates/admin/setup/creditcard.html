@@ -1,3 +1,14 @@
 <template name="setupCreditcard">
     Setup - Credit card
+    <!--{{> quickForm collection="CreditCardCollection" id="insertCreditCard" type="insert"}}-->
+    {{#autoForm collection="CreditCardCollection" id="insertCreditCard" type="insert" }}
+        <fieldset>
+            <legend>Add a credit card</legend>
+            <!-- The style='text-transform:uppercase' displays uppercase, but the data saved in Mongo is not in upper case -->
+            {{> afQuickField name='code' style='text-transform:uppercase' template="bootstrap3-horizontal" label-class="col-sm-2" input-col-class="col-sm-9" }}
+            {{> afQuickField name='description' template="bootstrap3-horizontal" label-class="col-sm-2" input-col-class="col-sm-9" }}
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Insert</button>
+    {{/autoForm}}
 </template>
+
