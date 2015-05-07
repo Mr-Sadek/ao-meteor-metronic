@@ -8,7 +8,7 @@ creditCardSchema = SimpleSchema.build SimpleSchema.timestamp,
 
   'description':
     type: String
-    # optional: true # optional field, not mandatory
+# optional: true # optional field, not mandatory
 
 # register the collection and attach the schema to the collection object
 CreditCard = new Mongo.Collection 'creditcard'
