@@ -10,6 +10,7 @@ _.extend SimpleSchema,
     for obj in objects
       _.extend result, obj
     return new SimpleSchema result
+
   # If we add this object to the schema,
   # the model will have two fields that will be computed
   # automatically
@@ -27,3 +28,20 @@ _.extend SimpleSchema,
       type: Date
       autoValue: ->
         new Date
+
+  visibleAt:
+    visibleAt:
+      type: Date
+      optional: true
+      index: true
+      autoValue: ->
+        if @isInsert
+          return new Date
+        if @isUpsert
+          return {$setOnInsert: new Date}
+    invisibleAt:
+        type: Date
+        optional: true
+    invisible:
+      type: Boolean
+      optional: true

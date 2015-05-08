@@ -1,7 +1,7 @@
 # collections/creditcard.coffee
 
 # data schema
-creditCardSchema = SimpleSchema.build SimpleSchema.timestamp,
+creditCardSchema = SimpleSchema.build SimpleSchema.timestamp, SimpleSchema.visibleAt,
   'code':
     type: String
     index: true

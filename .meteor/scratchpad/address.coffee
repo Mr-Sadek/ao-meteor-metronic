@@ -5,6 +5,8 @@
 AddressSchema = SimpleSchema.build SimpleSchema.timestamp,
   'type':
     type: String
+    # PostalAddress
+    # Home, Mailing, Business, Billing
 
   'streetAddress':
     type: String
