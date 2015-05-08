@@ -1,6 +1,6 @@
 Package.describe({
     name: 'rudolf:assets-metronic',
-    version: '1.0.33',
+    version: '1.0.34',
     // Brief, one-line summary of the package.
     summary: 'Base javascript files for using metronic in a meteor client app',
     // URL to the Git repository containing the source code for this package.
@@ -79,14 +79,14 @@ Package.onUse(function (api) {
 
      // Additional files for *bootstrap.min.js*
      clientFiles = getFilesFromFolder("assets-metronic", "theme_rtl/assets/global/plugins/bootstrap/css");
-     console.log(clientFiles);
-     console.log();
+     // console.log(clientFiles);
+     // console.log();
      // api.addFiles(clientFiles, "public/assets/metronic/theme_rtl/assets/global/plugins/bootstrap/css", {isAsset: true});
      api.addFiles(clientFiles, 'client', {isAsset: true});
 
      clientFiles = getFilesFromFolder("assets-metronic", "theme_rtl/assets/global/plugins/bootstrap/fonts");
-     console.log(clientFiles);
-     console.log();
+    // console.log(clientFiles);
+    // console.log();
      // api.addFiles(clientFiles, "public/assets/metronic/theme_rtl/assets/global/plugins/bootstrap/fonts", {isAsset: true});
      api.addFiles(clientFiles, 'client', {isAsset: true});
 
@@ -94,14 +94,14 @@ Package.onUse(function (api) {
 
      // Additional files for *fontawesome*
      clientFiles = getFilesFromFolder("assets-metronic", "theme_rtl/assets/global/plugins/font-awesome/css");
-     console.log(clientFiles);
-     console.log();
+    // console.log(clientFiles);
+    // console.log();
      // api.addFiles(clientFiles, "public/assets/metronic/theme_rtl/assets/global/plugins/font-awesome/css", {isAsset: true});
      api.addFiles(clientFiles, 'client', {isAsset: true});
 
      clientFiles = getFilesFromFolder("assets-metronic", "theme_rtl/assets/global/plugins/font-awesome/fonts");
-     console.log(clientFiles);
-     console.log();
+    // console.log(clientFiles);
+    // console.log();
      // api.addFiles(clientFiles, "public/assets/metronic/theme_rtl/assets/global/plugins/font-awesome/fonts", {isAsset: true});
      api.addFiles(clientFiles, 'client', {isAsset: true});
 
@@ -109,8 +109,8 @@ Package.onUse(function (api) {
 
      // Additional files for *bootstrap-switch.min.js*
      clientFiles = getFilesFromFolder("assets-metronic", "theme_rtl/assets/global/plugins/bootstrap-switch/css");
-     console.log(clientFiles);
-     console.log();
+    // console.log(clientFiles);
+    // console.log();
      // api.addFiles(clientFiles, "public/assets/metronic/theme_rtl/assets/global/plugins/bootstrap-switch/css", {isAsset: true});
      api.addFiles(clientFiles, 'client', {isAsset: true});
 
@@ -118,14 +118,14 @@ Package.onUse(function (api) {
 
      // Additional files for *metronic.js*
      clientFiles = getFilesFromFolder("assets-metronic", "theme_rtl/assets/global/css");
-     console.log(clientFiles);
-     console.log();
+    // console.log(clientFiles);
+    // console.log();
      // api.addFiles(clientFiles, "public/assets/metronic/theme_rtl/assets/global/css", {isAsset: true});
      api.addFiles(clientFiles, 'client', {isAsset: true});
 
      clientFiles = getFilesFromFolder("assets-metronic", "theme_rtl/assets/global/img");
-     console.log(clientFiles);
-     console.log();
+    // console.log(clientFiles);
+    // console.log();
      // api.addFiles(clientFiles, "public/assets/metronic/theme_rtl/assets/global/img", {isAsset: true});
      api.addFiles(clientFiles, 'client', {isAsset: true});
 
@@ -133,14 +133,14 @@ Package.onUse(function (api) {
 
      // Additional files for *layout.js*
      clientFiles = getFilesFromFolder("assets-metronic", "theme_rtl/assets/admin/layout4/css");
-     console.log(clientFiles);
-     console.log();
+    // console.log(clientFiles);
+    // console.log();
      // api.addFiles(clientFiles, "public/assets/metronic/theme_rtl/assets/admin/layout4/css", {isAsset: true});
      api.addFiles(clientFiles, 'client', {isAsset: true});
 
      clientFiles = getFilesFromFolder("assets-metronic", "theme_rtl/assets/admin/layout4/img");
-     console.log(clientFiles);
-     console.log();
+    // console.log(clientFiles);
+    // console.log();
      // api.addFiles(clientFiles, "public/assets/metronic/theme_rtl/assets/admin/layout4/img", {isAsset: true});
      api.addFiles(clientFiles, 'client', {isAsset: true});
 
