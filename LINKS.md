@@ -1,4 +1,4 @@
-Diverse Links für Meteor:
+Diverse Links für Meteor. Wir können hier interessante Links zu für uns relevanten Informationen speichern.
 
 ## Meteor forums
 https://forums.meteor.com/
@@ -63,5 +63,11 @@ https://github.com/ongoworks/meteor-security/
 http://kukuruku.co/hub/javascript/meteor-how-to-build-a-todo-list
 
 https://github.com/ovcharik/meteor-getting-started
+
+## Sortierbare Listen in Meteor
+http://blog.differential.com/sortable-lists-in-meteor-using-jquery-ui/
+
+Die Items eines Dossier könnten so verschoben werden. Im Metronic gibt es dazu auch ein Beispiel, aber ich denke der Link ist wichtig, weil wir so sehen wie der Meteor Code auszusehen hat damit dies funktioniert.
+
 
 

@@ -2,13 +2,10 @@
 # https://schema.org/PostalAddress
 
 # data schema
-AddressSchema = SimpleSchema.build SimpleSchema.timestamp,
-  # 'type':
-    # type: String
-    # PostalAddress
-    # Home, Mailing, Business, Billing
+AddressSchema = new SimpleSchema
+  # @type: "PostalAddress"
 
-  'streetAddress':
+  'address.streetAddress':
     type: String
     optional: true # optional field, not mandatory
 
@@ -31,10 +28,9 @@ AddressSchema = SimpleSchema.build SimpleSchema.timestamp,
   'addressCountry':
     type: String
     optional: true # optional field, not mandatory
+    index: true
 
-# register the collection and attach the schema to the collection object
-Address = new Mongo.Collection 'Address'
-Address.attachSchema AddressSchema
+# A person or organization can have only one address.
+# If one needs more than one address, then one has to use departments, or contact points, each of which can have an address.
 
-# export
-@AddressCollection = Address
+@AddressSchema = AddressSchema
