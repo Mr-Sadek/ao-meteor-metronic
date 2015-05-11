@@ -3,8 +3,8 @@
 
 # data schema
 AddressSchema = SimpleSchema.build SimpleSchema.timestamp,
-  'type':
-    type: String
+  # 'type':
+    # type: String
     # PostalAddress
     # Home, Mailing, Business, Billing
 
