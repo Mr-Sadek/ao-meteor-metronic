@@ -59,3 +59,9 @@ https://meteorhacks.com/
 ## Meteor Paket: Authorisierung in Meteor (wer darf was machen)
 https://github.com/ongoworks/meteor-security/
 
+## Excellente Demo Applikation zu Meteor
+http://kukuruku.co/hub/javascript/meteor-how-to-build-a-todo-list
+
+https://github.com/ovcharik/meteor-getting-started
+
+
