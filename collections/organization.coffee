@@ -23,21 +23,10 @@ Organization.attachSchema OrganizationSchema
 # export
 @OrganizationCollection = Organization
 
-modifier =
-  legalName: 'Online Travel Services AG'
-  email: 'support@onlinetravel.ch'
-  address:
-    addressCountry: 'ch'
-
-OrganizationCollection.insert(modifier)
-
-#selector =
-#  legalName: 'Online Travel Services AG'
-#
 #modifier =
-#  $set:
-#    legalName: 'Online Travel Services AG'
-#    email: 'support@onlinetravel.ch'
-#    address: [{addressCountry: 'ch'}]
+#  legalName: 'Online Travel Services AG'
+#  email: 'support@onlinetravel.ch'
+#  address:
+#    addressCountry: 'ch'
 #
-#OrganizationCollection.upsert(selector, modifier)
+#OrganizationCollection.insert(modifier)
