@@ -45,3 +45,21 @@ _.extend SimpleSchema,
     invisible:
       type: Boolean
       optional: true
+
+  thing:
+    name:
+      # The name of the item.
+      type: String
+      optional: true
+    alternateName:
+      # An alias for the item.
+      type: String
+      optional: true
+    url:
+      # URL of the item.
+      type: String
+      optional: true
+    description:
+      # A short description of the item.
+      type: String
+      optional: true

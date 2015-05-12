@@ -7,31 +7,35 @@ AddressSchema = new SimpleSchema
 
   'streetAddress':
     type: String
-    optional: true # optional field, not mandatory
+    optional: true
 
   'postOfficeBoxNumber':
     type: String
-    optional: true # optional field, not mandatory
+    optional: true
 
   'postalCode':
     type: String
-    optional: true # optional field, not mandatory
+    optional: true
 
   'addressLocality':
     type: String
-    optional: true # optional field, not mandatory
+    optional: true
 
   'addressRegion':
     type: String
-    optional: true # optional field, not mandatory
+    optional: true
 
   'addressCountry':
     type: String
-    optional: true # optional field, not mandatory
+    optional: true
     index: true
 
 # A person or organization can have only one address.
-# If one needs more than one address, then one has to use departments, or contact points, each of which can have an address.
+# If one needs more than one address, then one has to use departments, or
+# contact points, each of which can have an address.
 
-# The AddressSchema is used as a type property in Organization and Person. For us to be able to use this Schema outside of this file/class, one needs to make the Schema public.This is achieved by prepending the variable with a '@' character.
+# The @ThingSchema is used as a type property in other Schemas.
+# For us to be able to use this Schema outside of this file/class, one
+# needs to make the Schema public.
+# This is achieved by prepending the variable with a '@' character.
 @AddressSchema = AddressSchema
