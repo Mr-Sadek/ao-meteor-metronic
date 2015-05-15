@@ -2,6 +2,30 @@
 
 # data schema
 OrganizationSchema = SimpleSchema.build SimpleSchema.timestamp,
+
+# http://schema.org/Thing
+
+  name:
+    # The name of the item.
+    type: String
+    optional: true
+  alternateName:
+    # An alias for the item.
+    type: String
+    optional: true
+  url:
+    # URL of the item.
+    type: String
+    optional: true
+  description:
+    # A short description of the item.
+    type: String
+    optional: true
+  image:
+    # A short description of the item.
+    type: Object
+    optional: true
+
   'legalName':
     # The official name of the organization, e.g. the registered company name.
     type: String
